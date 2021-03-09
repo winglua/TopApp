@@ -56,48 +56,54 @@
             <ul class="sidenav__menu" role="menubar">
                 <li>
                     <a href="#" class="sidenav__menu-url">Home</a>
-
                 </li>
                 <li>
                     <a href="#" class="sidenav__menu-url">How To</a>
-
+                    <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
+                    <ul class="sidenav__menu-dropdown">
+                        <li><a href="" class="sidenav__menu-url">iOS APPs</a></li>
+                        <li><a href="" class="sidenav__menu-url">Android APPs</a></li>
+                        <li><a href="" class="sidenav__menu-url">Games</a></li>
+                        <li><a href="" class="sidenav__menu-url">Desktop</a></li>
+                        <li><a href="" class="sidenav__menu-url">Mac</a></li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#" class="sidenav__menu-url">Apps</a>
-
-
+                    <a href="#" class="sidenav__menu-url">APPs</a>
+                    <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
+                    <ul class="sidenav__menu-dropdown">
+                        <li><a href="" class="sidenav__menu-url">Dating</a></li>
+                        <li><a href="" class="sidenav__menu-url">Photo &amp; Video</a></li>
+                        <li><a href="" class="sidenav__menu-url">Kids</a></li>
+                        <li><a href="" class="sidenav__menu-url">Entertainment</a></li>
+                        <li><a href="" class="sidenav__menu-url">Productivity</a></li>
+                    </ul>
                 </li>
-
-
                 <li>
                     <a href="#" class="sidenav__menu-url">Gaming</a>
+                    <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
+                    <ul class="sidenav__menu-dropdown">
+                        <li><a href="" class="sidenav__menu-url">RPG</a></li>
+                        <li><a href="" class="sidenav__menu-url">Survival</a></li>
+                        <li><a href="" class="sidenav__menu-url">Strategy</a></li>
+                        <li><a href="" class="sidenav__menu-url">MMO</a></li>
+                        <li><a href="" class="sidenav__menu-url">Shooting</a></li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#" class="sidenav__menu-url">Editor’s Picks</a>
+                    <a href="#" class="sidenav__menu-url">Top-Review</a>
+                    <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
+                    <ul class="sidenav__menu-dropdown">
+                        <li><a href="" class="sidenav__menu-url">Board Games</a></li>
+                        <li><a href="" class="sidenav__menu-url">Card Games</a></li>
+                    </ul>
                 </li>
-
+                <li>
+                    <a href="#" class="sidenav__menu-url">Top Themes</a>
+                </li>
             </ul>
         </nav>
-
-        <div class="socials sidenav__socials">
-            <a class="social social-facebook" href="#" target="_blank" aria-label="facebook">
-                <i class="ui-facebook"></i>
-            </a>
-            <a class="social social-twitter" href="#" target="_blank" aria-label="twitter">
-                <i class="ui-twitter"></i>
-            </a>
-            <a class="social social-google-plus" href="#" target="_blank" aria-label="google">
-                <i class="ui-google"></i>
-            </a>
-            <a class="social social-youtube" href="#" target="_blank" aria-label="youtube">
-                <i class="ui-youtube"></i>
-            </a>
-            <a class="social social-instagram" href="#" target="_blank" aria-label="instagram">
-                <i class="ui-instagram"></i>
-            </a>
-        </div>
     </header> <!-- end sidenav -->
-
     <main class="main oh" id="main">
 
         <!-- Top Bar -->
@@ -160,22 +166,68 @@
                         <!-- Nav-wrap -->
                         <nav class="flex-child nav__wrap d-none d-lg-block">
                             <ul class="nav__menu">
-                                <li>
+                                <li class="active">
                                     <a href="#">Home</a>
                                 </li>
 
-                                <li>
-                                    <a href="#">How To</a>
+
+                                <li class="nav__dropdown">
+                                    <a href="">How To</a>
+                                    <ul class="nav__dropdown-menu">
+                                        <li><a href="">iOS APPs</a></li>
+                                        <li><a href="">Android APPs</a></li>
+                                        <li><a href="">Games</a></li>
+                                        <li><a href="">Desktop</a></li>
+                                        <li><a href="">Mac</a></li>
+
+                                    </ul>
+                                </li>
+
+                                <li class="nav__dropdown">
+                                    <a href="">APPs</a>
+                                    <ul class="nav__dropdown-menu">
+                                        <li><a href="">Dating</a></li>
+                                        <li><a href="">Photo &amp; Video</a></li>
+                                        <li><a href="">Kids</a></li>
+                                        <li><a href="">Entertainment</a></li>
+                                        <li><a href="">Productivity</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav__dropdown">
+                                    <a href="">APPs</a>
+                                    <ul class="nav__dropdown-menu">
+                                        <li><a href="">Dating</a></li>
+                                        <li><a href="">Photo &amp; Video</a></li>
+                                        <li><a href="">Kids</a></li>
+                                        <li><a href="">Entertainment</a></li>
+                                        <li><a href="">Productivity</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav__dropdown">
+                                    <a href="">Gaming</a>
+                                    <ul class="nav__dropdown-menu">
+                                        <li><a href="">RPG</a></li>
+                                        <li><a href="">Survival</a></li>
+                                        <li><a href="">Strategy</a></li>
+                                        <li><a href="">MMO</a></li>
+                                        <li><a href="">Shooting</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav__dropdown">
+                                    <a href="">Top-Review</a>
+                                    <ul class="nav__dropdown-menu">
+                                        <li><a href="">Board Games</a></li>
+                                        <li><a href="">Card Games</a></li>
+
+                                    </ul>
                                 </li>
 
                                 <li>
-                                    <a href="#">APPs</a>
-                                </li>
-                                <li>
-                                    <a href="#">Gaming</a>
-                                </li>
-                                <li>
-                                    <a href="#">Editor’s Picks</a>
+                                    <a href="">Top Themes</a>
+
                                 </li>
                             </ul> <!-- end menu -->
                         </nav> <!-- end nav-wrap -->
@@ -728,6 +780,281 @@
                         </div>
 
                     </section> <!-- end news by categories -->
+
+
+
+                </div> <!-- end posts -->
+
+                <!-- Sidebar -->
+                <aside class="col-lg-4 sidebar sidebar--right">
+
+
+
+                    <!-- Widget Popular Apps -->
+                    <aside class="widget widget-popular-posts">
+                        <h4 class="widget-title">App</h4>
+                        <ul class="post-list-small">
+                            <li class="post-list-small__item">
+                                <article class="post-list-small__entry clearfix">
+                                    <div class="post-list-small__img-holder">
+                                        <div class="thumb-container thumb-100">
+                                            <a href="">
+                                                <img data-src="img/content/post_small/post_small_37.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-list-small__body">
+                                        <h3 class="post-list-small__entry-title">
+                                            <a href="single-post.html">Spotify - Listen to podcasts and find music you love</a>
+                                        </h3>
+                                        <ul class="entry__meta">
+                                            <li class="entry__meta-author">
+                                                <span>by</span>
+                                                <a href="#">Spotify</a>
+                                                <a class="btn-download" href="">Download</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="post-list-small__item">
+                                <article class="post-list-small__entry clearfix">
+                                    <div class="post-list-small__img-holder">
+                                        <div class="thumb-container thumb-100">
+                                            <a href="single-post.html">
+                                                <img data-src="img/content/post_small/post_small_38.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-list-small__body">
+                                        <h3 class="post-list-small__entry-title">
+                                            <a href="single-post.html">Adobe Lightroom - Photo Editor Pro Camera</a>
+                                        </h3>
+                                        <ul class="entry__meta">
+                                            <li class="entry__meta-author">
+                                                <span>by</span>
+                                                <a href="#">Adobe</a>
+                                                <a class="btn-download" href="">Download</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="post-list-small__item">
+                                <article class="post-list-small__entry clearfix">
+                                    <div class="post-list-small__img-holder">
+                                        <div class="thumb-container thumb-100">
+                                            <a href="single-post.html">
+                                                <img data-src="img/content/post_small/post_small_39.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-list-small__body">
+                                        <h3 class="post-list-small__entry-title">
+                                            <a href="single-post.html">Twitch</a>
+                                        </h3>
+                                        <ul class="entry__meta">
+                                            <li class="entry__meta-author">
+                                                <span>by</span>
+                                                <a href="#">Twitch</a>
+                                                <a class="btn-download" href="">Download</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="post-list-small__item">
+                                <article class="post-list-small__entry clearfix">
+                                    <div class="post-list-small__img-holder">
+                                        <div class="thumb-container thumb-100">
+                                            <a href="single-post.html">
+                                                <img data-src="img/content/post_small/post_small_40.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-list-small__body">
+                                        <h3 class="post-list-small__entry-title">
+                                            <a href="single-post.html">Pandora - Streaming Music, Radio Podcasts</a>
+                                        </h3>
+                                        <ul class="entry__meta">
+                                            <li class="entry__meta-author">
+                                                <span>by</span>
+                                                <a href="#">Pandora</a>
+                                                <a class="btn-download" href="">Download</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </article>
+                            </li>
+
+                            <li class="post-list-small__item">
+                                <article class="post-list-small__entry clearfix">
+                                    <div class="post-list-small__img-holder">
+                                        <div class="thumb-container thumb-100">
+                                            <a href="single-post.html">
+                                                <img data-src="img/content/post_small/post_small_41.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-list-small__body">
+                                        <h3 class="post-list-small__entry-title">
+                                            <a href="single-post.html">Disney+</a>
+                                        </h3>
+                                        <ul class="entry__meta">
+                                            <li class="entry__meta-author">
+                                                <span>by</span>
+                                                <a href="#">Disney</a>
+                                                <a class="btn-download" href="">Download</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </aside> <!-- end widget popular posts -->
+
+                    <!-- Widget Popular Apps -->
+                    <aside class="widget widget-popular-posts">
+                        <h4 class="widget-title">Game</h4>
+                        <ul class="post-list-small">
+                            <li class="post-list-small__item">
+                                <article class="post-list-small__entry clearfix">
+                                    <div class="post-list-small__img-holder">
+                                        <div class="thumb-container thumb-100">
+                                            <a href="">
+                                                <img data-src="img/content/post_small/post_small_5.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-list-small__body">
+                                        <h3 class="post-list-small__entry-title">
+                                            <a href="single-post.html">Clash of Clans</a>
+                                        </h3>
+                                        <ul class="entry__meta">
+                                            <li class="entry__meta-author">
+                                                <span>by</span>
+                                                <a href="#">Supercell</a>
+                                                <a class="btn-download" href="">Download</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="post-list-small__item">
+                                <article class="post-list-small__entry clearfix">
+                                    <div class="post-list-small__img-holder">
+                                        <div class="thumb-container thumb-100">
+                                            <a href="single-post.html">
+                                                <img data-src="img/content/post_small/post_small_4.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-list-small__body">
+                                        <h3 class="post-list-small__entry-title">
+                                            <a href="single-post.html">Pokémon GO</a>
+                                        </h3>
+                                        <ul class="entry__meta">
+                                            <li class="entry__meta-author">
+                                                <span>by</span>
+                                                <a href="#">Niantic, Inc.</a>
+                                                <a class="btn-download" href="">Download</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="post-list-small__item">
+                                <article class="post-list-small__entry clearfix">
+                                    <div class="post-list-small__img-holder">
+                                        <div class="thumb-container thumb-100">
+                                            <a href="single-post.html">
+                                                <img data-src="img/content/post_small/post_small_3.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-list-small__body">
+                                        <h3 class="post-list-small__entry-title">
+                                            <a href="single-post.html">Minecraft</a>
+                                        </h3>
+                                        <ul class="entry__meta">
+                                            <li class="entry__meta-author">
+                                                <span>by</span>
+                                                <a href="#">Mojang</a>
+                                                <a class="btn-download" href="">Download</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="post-list-small__item">
+                                <article class="post-list-small__entry clearfix">
+                                    <div class="post-list-small__img-holder">
+                                        <div class="thumb-container thumb-100">
+                                            <a href="single-post.html">
+                                                <img data-src="img/content/post_small/post_small_2.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-list-small__body">
+                                        <h3 class="post-list-small__entry-title">
+                                            <a href="single-post.html">Grand Theft Auto</a>
+                                        </h3>
+                                        <ul class="entry__meta">
+                                            <li class="entry__meta-author">
+                                                <span>by</span>
+                                                <a href="#">San Andreas</a>
+                                                <a class="btn-download" href="">Download</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </article>
+                            </li>
+
+                            <li class="post-list-small__item">
+                                <article class="post-list-small__entry clearfix">
+                                    <div class="post-list-small__img-holder">
+                                        <div class="thumb-container thumb-100">
+                                            <a href="single-post.html">
+                                                <img data-src="img/content/post_small/post_small_1.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-list-small__body">
+                                        <h3 class="post-list-small__entry-title">
+                                            <a href="single-post.html">Terraria</a>
+                                        </h3>
+                                        <ul class="entry__meta">
+                                            <li class="entry__meta-author">
+                                                <span>by</span>
+                                                <a href="#">505 Games</a>
+                                                <a class="btn-download" href="">Download</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </aside> <!-- end widget popular posts -->
+
+
+
+                </aside> <!-- end sidebar -->
+
+                <!-- Posts -->
+                <div class="col-lg-8 blog__content widget">
+
+                    <!-- Categories -->
+
                     <section>
                         <div class="title-wrap">
                             <h3 class="section-title">The latest</h3>
@@ -871,265 +1198,14 @@
                         </article>
 
                     </section>
-
-
+                    <button class="btn btn-lg btn-light btn-wide load-more">
+                        <span>Load More <i class="ui-arrow-down"></i></span>
+                    </button>
                 </div> <!-- end posts -->
 
-                <!-- Sidebar -->
-                <aside class="col-lg-4 sidebar sidebar--right">
 
 
 
-                    <!-- Widget Popular Apps -->
-                    <aside class="widget widget-popular-posts">
-                        <h4 class="widget-title">App</h4>
-                        <ul class="post-list-small">
-                            <li class="post-list-small__item">
-                                <article class="post-list-small__entry clearfix">
-                                    <div class="post-list-small__img-holder">
-                                        <div class="thumb-container thumb-100">
-                                            <a href="">
-                                                <img data-src="img/content/post_small/post_small_37.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="post-list-small__body">
-                                        <h3 class="post-list-small__entry-title">
-                                            <a href="single-post.html">Spotify - Listen to podcasts and find music you love</a>
-                                        </h3>
-                                        <ul class="entry__meta">
-                                            <li class="entry__meta-author">
-                                                <span>by</span>
-                                                <a href="#">Spotify</a><br>
-                                                 <button>Download</button>
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class="post-list-small__item">
-                                <article class="post-list-small__entry clearfix">
-                                    <div class="post-list-small__img-holder">
-                                        <div class="thumb-container thumb-100">
-                                            <a href="single-post.html">
-                                                <img data-src="img/content/post_small/post_small_38.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="post-list-small__body">
-                                        <h3 class="post-list-small__entry-title">
-                                            <a href="single-post.html">Adobe Lightroom - Photo Editor Pro Camera</a>
-                                        </h3>
-                                        <ul class="entry__meta">
-                                            <li class="entry__meta-author">
-                                                <span>by</span>
-                                                <a href="#">Adobe</a>
-                                            </li>
-                                           
-                                        </ul>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class="post-list-small__item">
-                                <article class="post-list-small__entry clearfix">
-                                    <div class="post-list-small__img-holder">
-                                        <div class="thumb-container thumb-100">
-                                            <a href="single-post.html">
-                                                <img data-src="img/content/post_small/post_small_39.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="post-list-small__body">
-                                        <h3 class="post-list-small__entry-title">
-                                            <a href="single-post.html">Twitch</a>
-                                        </h3>
-                                        <ul class="entry__meta">
-                                            <li class="entry__meta-author">
-                                                <span>by</span>
-                                                <a href="#">Twitch</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class="post-list-small__item">
-                                <article class="post-list-small__entry clearfix">
-                                    <div class="post-list-small__img-holder">
-                                        <div class="thumb-container thumb-100">
-                                            <a href="single-post.html">
-                                                <img data-src="img/content/post_small/post_small_40.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="post-list-small__body">
-                                        <h3 class="post-list-small__entry-title">
-                                            <a href="single-post.html">Pandora - Streaming Music, Radio Podcasts</a>
-                                        </h3>
-                                        <ul class="entry__meta">
-                                            <li class="entry__meta-author">
-                                                <span>by</span>
-                                                <a href="#">Pandora</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </article>
-                            </li>
-                            
-                            <li class="post-list-small__item">
-                                <article class="post-list-small__entry clearfix">
-                                    <div class="post-list-small__img-holder">
-                                        <div class="thumb-container thumb-100">
-                                            <a href="single-post.html">
-                                                <img data-src="img/content/post_small/post_small_41.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="post-list-small__body">
-                                        <h3 class="post-list-small__entry-title">
-                                            <a href="single-post.html">Disney+</a>
-                                        </h3>
-                                        <ul class="entry__meta">
-                                            <li class="entry__meta-author">
-                                                <span>by</span>
-                                                <a href="#">Disney</a>
-                                            </li>
-                                           
-                                        </ul>
-                                    </div>
-                                </article>
-                            </li>
-                        </ul>
-                    </aside> <!-- end widget popular posts -->
-                    
-                     <!-- Widget Popular Apps -->
-                    <aside class="widget widget-popular-posts">
-                        <h4 class="widget-title">Game</h4>
-                        <ul class="post-list-small">
-                            <li class="post-list-small__item">
-                                <article class="post-list-small__entry clearfix">
-                                    <div class="post-list-small__img-holder">
-                                        <div class="thumb-container thumb-100">
-                                            <a href="">
-                                                <img data-src="img/content/post_small/post_small_5.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="post-list-small__body">
-                                        <h3 class="post-list-small__entry-title">
-                                            <a href="single-post.html">Clash of Clans</a>
-                                        </h3>
-                                        <ul class="entry__meta">
-                                            <li class="entry__meta-author">
-                                                <span>by</span>
-                                                <a href="#">Supercell</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class="post-list-small__item">
-                                <article class="post-list-small__entry clearfix">
-                                    <div class="post-list-small__img-holder">
-                                        <div class="thumb-container thumb-100">
-                                            <a href="single-post.html">
-                                                <img data-src="img/content/post_small/post_small_4.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="post-list-small__body">
-                                        <h3 class="post-list-small__entry-title">
-                                            <a href="single-post.html">Pokémon GO</a>
-                                        </h3>
-                                        <ul class="entry__meta">
-                                            <li class="entry__meta-author">
-                                                <span>by</span>
-                                                <a href="#">Niantic, Inc.</a>
-                                            </li>
-                                           
-                                        </ul>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class="post-list-small__item">
-                                <article class="post-list-small__entry clearfix">
-                                    <div class="post-list-small__img-holder">
-                                        <div class="thumb-container thumb-100">
-                                            <a href="single-post.html">
-                                                <img data-src="img/content/post_small/post_small_3.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="post-list-small__body">
-                                        <h3 class="post-list-small__entry-title">
-                                            <a href="single-post.html">Minecraft</a>
-                                        </h3>
-                                        <ul class="entry__meta">
-                                            <li class="entry__meta-author">
-                                                <span>by</span>
-                                                <a href="#">Mojang</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class="post-list-small__item">
-                                <article class="post-list-small__entry clearfix">
-                                    <div class="post-list-small__img-holder">
-                                        <div class="thumb-container thumb-100">
-                                            <a href="single-post.html">
-                                                <img data-src="img/content/post_small/post_small_2.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="post-list-small__body">
-                                        <h3 class="post-list-small__entry-title">
-                                            <a href="single-post.html">Grand Theft Auto</a>
-                                        </h3>
-                                        <ul class="entry__meta">
-                                            <li class="entry__meta-author">
-                                                <span>by</span>
-                                                <a href="#">San Andreas</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </article>
-                            </li>
-                            
-                            <li class="post-list-small__item">
-                                <article class="post-list-small__entry clearfix">
-                                    <div class="post-list-small__img-holder">
-                                        <div class="thumb-container thumb-100">
-                                            <a href="single-post.html">
-                                                <img data-src="img/content/post_small/post_small_1.jpg" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="post-list-small__body">
-                                        <h3 class="post-list-small__entry-title">
-                                            <a href="single-post.html">Terraria</a>
-                                        </h3>
-                                        <ul class="entry__meta">
-                                            <li class="entry__meta-author">
-                                                <span>by</span>
-                                                <a href="#">505 Games</a>
-                                            </li>
-                                           
-                                        </ul>
-                                    </div>
-                                </article>
-                            </li>
-                        </ul>
-                    </aside> <!-- end widget popular posts -->
-
-
-
-                </aside> <!-- end sidebar -->
 
             </div> <!-- end content -->
         </div> <!-- end main container -->
