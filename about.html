@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>TopAppReview | Home</title>
+    <title>TopAppReview | About</title>
 
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
@@ -29,7 +29,7 @@
 
 </head>
 
-<body class="style-games style-search">
+<body class="style-games style-home">
 
     <!-- Preloader -->
     <div class="loader-mask">
@@ -166,12 +166,12 @@
                         <!-- Nav-wrap -->
                         <nav class="flex-child nav__wrap d-none d-lg-block">
                             <ul class="nav__menu">
-                                <li>
+                                <li class="active">
                                     <a href="#">Home</a>
                                 </li>
 
 
-                                <li class="nav__dropdown active">
+                                <li class="nav__dropdown">
                                     <a href="">How To</a>
                                     <ul class="nav__dropdown-menu">
                                         <li><a href="">iOS APPs</a></li>
@@ -194,7 +194,7 @@
 
                                     </ul>
                                 </li>
-
+                                
                                 <li class="nav__dropdown">
                                     <a href="">Gaming</a>
                                     <ul class="nav__dropdown-menu">
@@ -250,280 +250,67 @@
             </div>
         </header> <!-- end navigation -->
 
-        <!-- Breadcrumbs -->
-        <div class="container">
-            <ul class="breadcrumbs">
-                <li class="breadcrumbs__item">
-                    <a href="index.html" class="breadcrumbs__url">Home</a>
-                </li>
-                <li class="breadcrumbs__item">
-                    <a href="index.html" class="breadcrumbs__url">Search</a>
-                </li>
-                <li class="breadcrumbs__item breadcrumbs__item--current">
-                    Zoom meeting
-                </li>
-            </ul>
-        </div>
+       
 
         <div class="main-container container pt-24" id="main-container">
+             <!-- post content -->
+      <div class="blog__content mb-72">
+        <h1 class="page-title">About</h1>
+        <img src="img/content/about/about_bg.jpg" class="page-featured-img">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="entry__article">
+                
+                 <blockquote><p>EnigmaSoft provides anti-malware solutions with premium technical support to empower you against the effects of the ever-present threat of malware.</p></blockquote>
+              <p>The "Enigma Software Group" ("ESG") consists of a group of affiliated companies organized in numerous jurisdictions globally. Historically, all of ESG's management and employees, including developers, researchers, customer support, quality assurance, and marketing teams have been located in the European Union. Since 2016, ESG has consolidated certain key elements of its global operations in our offices and world headquarters in the city of Dublin in the Republic of Ireland.</p>
 
-            <!-- Ad Banner 970 -->
-            <div class="text-center pb-48">
-                <a href="#">
-                    <img src="img/content/placeholder_970.jpg" alt="">
-                </a>
+              <p>ESG operates out of the Republic of Ireland because it provides access to both European and non-European markets, is the only English speaking country in the Eurozone, and it attracts the brightest talent from across Europe and the rest of the world. Ireland is in geographical proximity and a convenient time zone to the jurisdictions where our global customers in Europe and North America are located. As such, we are able to provide a timelier and efficient service to our customers. Furthermore, Ireland is one of the "best business friendly" countries in the EU and the world for technology companies and other global groups of affiliated companies like ESG. For example, the city of Dublin serves as the European headquarters for a number of top U.S. high-tech firms. Most are clustered in an area dubbed "Silicon Docks" which is a nickname for the area in Dublin around Grand Canal Dock, stretching to the International Financial Services Centre (or IFSC), city centre east, and city centre south near the Grand Canal. The nickname makes reference to the US "Silicon Valley", and was adopted because of the concentration of global headquarters of high-tech companies such as Google, Facebook, Twitter, Linkedin and the numerous startups in the area. The number of tech professionals working in technology firms in the area exceeds over 10,000 firms. These were some of the key factors why ESG's management team believes why Ireland provides an ideal hub for our European and global operations.</p>
+              
+             
+
+              <p>For over a decade, ESG, and its group of affiliated companies, specialized in the development, distribution, and marketing of PC anti-malware software, PC optimization software, consumer security software products, online security analysis, adaptive threat assessment, detection of PC security threats, and custom malware fixes to our millions of paid subscribers worldwide. Our subscribers are individual users, businesses, and governmental agencies who subscribe to our service over the Internet.</p>
+
+             
+
             </div>
+          </div>
+        </div>
+          
+          <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h4>Drop Us a Message</h4>
+            <p>Don't hesitate to get in touch. We will reply you as soon as possible.</p>
+                    
 
-            <!-- Content -->
-            <div class="row content">
+            <!-- Contact Form -->
+            <form id="contact-form" class="contact-form mt-30 mb-30" method="post" action="#">
+              <div class="contact-name">
+                <label for="name">Name <abbr title="required" class="required">*</abbr></label>
+                <input name="name" id="name" type="text">
+              </div>
+              <div class="contact-email">
+                <label for="email">Email <abbr title="required" class="required">*</abbr></label>
+                <input name="email" id="email" type="email">
+              </div>
+              <div class="contact-subject">
+                <label for="email">Subject</label>
+                <input name="subject" id="subject" type="text">
+              </div>
+              <div class="contact-message">
+                <label for="message">Message <abbr title="required" class="required">*</abbr></label>
+                <textarea id="message" name="message" rows="7" required="required"></textarea>
+              </div>
 
-                <div class="col-lg-12 blog__content mb-72">
-                    <h1 class="page-title">Search results for: Zoom meeting</h1>
-                    <article class="entry card post-list">
-                        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url(img/content/list/list_post_1.jpg)">
-                            <a href="single-post.html" class="thumb-url"></a>
-                            <img src="img/content/list/list_post_1.jpg" alt="" class="entry__img d-none">
-                            <a href="" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--orange">iOS APPs</a>
-                        </div>
+              <input type="submit" class="btn btn-lg btn-color btn-button" value="Send Message" id="submit-message">
+              <div id="msg" class="message"></div>
+            </form>
 
-                        <div class="entry__body post-list__body card__body">
-                            <div class="entry__header">
-                                <h2 class="entry__title">
-                                    <a href="single-post.html">How To Join A Zoom Meeting</a>
-                                </h2>
-                                <ul class="entry__meta">
-                                    <li class="entry__meta-author">
-                                        <span>by</span>
-                                        <a href="#">APP Review</a>
-                                    </li>
-                                    <li class="entry__meta-date">
-                                        Jan 21, 2018
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>Zoom doesn’t hold back when it comes to allowing users to join a meeting. There are four ways to join a Zoom meeting — even if you haven’t downloaded Zoom’s software. Here’s...</p>
-                            </div>
-                        </div>
-                    </article>
+          </div>
+        </div>
+      </div> <!-- end post content -->
+           
 
-                    <article class="entry card post-list">
-                        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url(img/content/list/list_post_11.jpg)">
-                            <a href="single-post.html" class="thumb-url"></a>
-                            <img src="img/content/list/list_post_21.jpg" alt="" class="entry__img d-none">
-                            <a href="" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--orange">iOS APPs</a>
-                        </div>
-
-                        <div class="entry__body post-list__body card__body">
-                            <div class="entry__header">
-                                <h2 class="entry__title">
-                                    <a href="single-post.html">How To Mute All Participants In Zoom</a>
-                                </h2>
-                                <ul class="entry__meta">
-                                    <li class="entry__meta-author">
-                                        <span>by</span>
-                                        <a href="#">APP Review</a>
-                                    </li>
-                                    <li class="entry__meta-date">
-                                        Jan 21, 2018
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>Zoom doesn’t hold back when it comes to allowing users to join a meeting. There are four ways to join a Zoom meeting — even if you haven’t downloaded Zoom’s software. Here’s...</p>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="entry card post-list">
-                        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url(img/content/list/list_post_3.jpg)">
-                            <a href="single-post.html" class="thumb-url"></a>
-                            <img src="img/content/list/list_post_3.jpg" alt="" class="entry__img d-none">
-                            <a href="" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--orange">iOS APPs</a>
-                        </div>
-
-                        <div class="entry__body post-list__body card__body">
-                            <div class="entry__header">
-                                <h2 class="entry__title">
-                                    <a href="single-post.html">How To Mute All Participants In Zoom</a>
-                                </h2>
-                                <ul class="entry__meta">
-                                    <li class="entry__meta-author">
-                                        <span>by</span>
-                                        <a href="#">APP Review</a>
-                                    </li>
-                                    <li class="entry__meta-date">
-                                        Jan 21, 2018
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>Zoom doesn’t hold back when it comes to allowing users to join a meeting. There are four ways to join a Zoom meeting — even if you haven’t downloaded Zoom’s software.</p>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="entry card post-list">
-                        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url(img/content/list/list_post_4.jpg)">
-                            <a href="single-post.html" class="thumb-url"></a>
-                            <img src="img/content/list/list_post_4.jpg" alt="" class="entry__img d-none">
-                            <a href="" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--orange">iOS APPs</a>
-                        </div>
-
-                        <div class="entry__body post-list__body card__body">
-                            <div class="entry__header">
-                                <h2 class="entry__title">
-                                    <a href="single-post.html">How To Share Computer Audio In Zoom</a>
-                                </h2>
-                                <ul class="entry__meta">
-                                    <li class="entry__meta-author">
-                                        <span>by</span>
-                                        <a href="#">APP Review</a>
-                                    </li>
-                                    <li class="entry__meta-date">
-                                        Jan 21, 2018
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>On Zoom screen you can share the desktop, window, application or audio/video. </p>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="entry card post-list">
-                        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url(img/content/list/list_post_1.jpg)">
-                            <a href="single-post.html" class="thumb-url"></a>
-                            <img src="img/content/list/list_post_1.jpg" alt="" class="entry__img d-none">
-                            <a href="" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--orange">iOS APPs</a>
-                        </div>
-
-                        <div class="entry__body post-list__body card__body">
-                            <div class="entry__header">
-                                <h2 class="entry__title">
-                                    <a href="single-post.html">How To Join A Zoom Meeting</a>
-                                </h2>
-                                <ul class="entry__meta">
-                                    <li class="entry__meta-author">
-                                        <span>by</span>
-                                        <a href="#">APP Review</a>
-                                    </li>
-                                    <li class="entry__meta-date">
-                                        Jan 21, 2018
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>Zoom doesn’t hold back when it comes to allowing users to join a meeting. There are four ways to join a Zoom meeting — even if you haven’t downloaded Zoom’s software. Here’s...</p>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="entry card post-list">
-                        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url(img/content/list/list_post_11.jpg)">
-                            <a href="single-post.html" class="thumb-url"></a>
-                            <img src="img/content/list/list_post_21.jpg" alt="" class="entry__img d-none">
-                            <a href="" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--orange">iOS APPs</a>
-                        </div>
-
-                        <div class="entry__body post-list__body card__body">
-                            <div class="entry__header">
-                                <h2 class="entry__title">
-                                    <a href="single-post.html">How To Mute All Participants In Zoom</a>
-                                </h2>
-                                <ul class="entry__meta">
-                                    <li class="entry__meta-author">
-                                        <span>by</span>
-                                        <a href="#">APP Review</a>
-                                    </li>
-                                    <li class="entry__meta-date">
-                                        Jan 21, 2018
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>Zoom doesn’t hold back when it comes to allowing users to join a meeting. There are four ways to join a Zoom meeting — even if you haven’t downloaded Zoom’s software. Here’s...</p>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="entry card post-list">
-                        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url(img/content/list/list_post_3.jpg)">
-                            <a href="single-post.html" class="thumb-url"></a>
-                            <img src="img/content/list/list_post_3.jpg" alt="" class="entry__img d-none">
-                            <a href="" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--orange">iOS APPs</a>
-                        </div>
-
-                        <div class="entry__body post-list__body card__body">
-                            <div class="entry__header">
-                                <h2 class="entry__title">
-                                    <a href="single-post.html">How To Mute All Participants In Zoom</a>
-                                </h2>
-                                <ul class="entry__meta">
-                                    <li class="entry__meta-author">
-                                        <span>by</span>
-                                        <a href="#">APP Review</a>
-                                    </li>
-                                    <li class="entry__meta-date">
-                                        Jan 21, 2018
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>Zoom doesn’t hold back when it comes to allowing users to join a meeting. There are four ways to join a Zoom meeting — even if you haven’t downloaded Zoom’s software.</p>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="entry card post-list">
-                        <div class="entry__img-holder post-list__img-holder card__img-holder" style="background-image: url(img/content/list/list_post_4.jpg)">
-                            <a href="single-post.html" class="thumb-url"></a>
-                            <img src="img/content/list/list_post_4.jpg" alt="" class="entry__img d-none">
-                            <a href="" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--orange">iOS APPs</a>
-                        </div>
-
-                        <div class="entry__body post-list__body card__body">
-                            <div class="entry__header">
-                                <h2 class="entry__title">
-                                    <a href="single-post.html">How To Share Computer Audio In Zoom</a>
-                                </h2>
-                                <ul class="entry__meta">
-                                    <li class="entry__meta-author">
-                                        <span>by</span>
-                                        <a href="#">APP Review</a>
-                                    </li>
-                                    <li class="entry__meta-date">
-                                        Jan 21, 2018
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>On Zoom screen you can share the desktop, window, application or audio/video. </p>
-                            </div>
-                        </div>
-                    </article>
-
-
-
-                    <!-- Pagination -->
-                    <nav class="pagination">
-                        <span class="pagination__page pagination__page--current">1</span>
-                        <a href="#" class="pagination__page">2</a>
-                        <a href="#" class="pagination__page">3</a>
-                        <a href="#" class="pagination__page">4</a>
-                        <a href="#" class="pagination__page pagination__icon pagination__page--next"><i class="ui-arrow-right"></i></a>
-                    </nav>
-                </div> <!-- end posts -->
-
-
-
-
-
-
-
-
-
-            </div> <!-- end content -->
+            
         </div> <!-- end main container -->
 
         <!-- Footer -->
@@ -632,4 +419,6 @@
     <script src="js/modernizr.min.js"></script>
     <script src="js/scripts.js"></script>
 
-</body></html>
+</body>
+
+</html>
