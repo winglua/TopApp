@@ -304,13 +304,13 @@
       loop: true,
       nav: true,
       dots: false,
-      margin: 30,
+      margin: 0,
       lazyLoad: true,
       navSpeed: 500,
       navText: ['<i class="ui-arrow-left">','<i class="ui-arrow-right">'],
       responsive:{
         768:{
-          items:5
+          items:7
         },
         540:{
           items:3
