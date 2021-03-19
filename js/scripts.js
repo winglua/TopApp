@@ -297,8 +297,8 @@
       }
     });
 
-    // Posts Carousel
-    $("#owl-posts").owlCarousel({
+    // Posts Carousel apps
+    $(".owl-posts").owlCarousel({
       center: false,
       items: 1,
       loop: true,
@@ -310,13 +310,18 @@
       navText: ['<i class="ui-arrow-left">','<i class="ui-arrow-right">'],
       responsive:{
         768:{
-          items:4
+          items:5
         },
         540:{
           items:3
         }
       }
     });
+      
+   // Posts Carousel apps-categories
+   
+      
+
 
     // Related Posts
     $("#owl-posts-3-items").owlCarousel({
