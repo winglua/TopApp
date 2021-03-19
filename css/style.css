@@ -2219,15 +2219,20 @@ screen and (max-height: 300px) {
 
 .entry__img-holder {
     position: relative;
-/*    overflow: hidden;*/
+    overflow: hidden;
     margin-bottom: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
     
+   
+}
+.apps  .entry__img-holder,.owl-posts .entry__img-holder{
+    overflow: visible;
     width: 144px;
     height: 144px;
 }
+
 
 .entry__img {
     width: 100%;
