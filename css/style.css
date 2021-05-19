@@ -2224,10 +2224,12 @@ screen and (max-height: 300px) {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
-    
-   
+
+
 }
-.apps  .entry__img-holder,.owl-posts .entry__img-holder{
+
+.apps .entry__img-holder,
+.owl-posts .entry__img-holder {
     overflow: visible;
     width: 144px;
     height: 144px;
@@ -2442,7 +2444,7 @@ screen and (max-height: 300px) {
 .thumb-container {
     background-color: #f7f7f7;
     position: relative;
-/*    overflow: hidden;*/
+    /*    overflow: hidden;*/
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
 }
@@ -6990,6 +6992,50 @@ dd {
 }
 
 
+@media only screen and (max-width: 480px) {
 
+    header .flex-parent {
+        padding: 0 20px;
+    }
 
-/*# sourceMappingURL=style.css.map */
+    .breadcrumbs {
+        padding: 0 20px;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .content-box {
+        padding: 0;
+    }
+
+    .single-post__entry-header {
+        padding: 20px;
+    }
+
+    .entry__article-wrap {
+        padding: 20px;
+
+    }
+
+    .section.related-posts {
+        padding: 20px;
+    }
+
+    .entry-comments {
+        padding: 20px;
+    }
+
+    .comment-respond {
+        padding: 20px;
+    }
+
+    .footer .container {
+        padding: 20px;
+    }
+
+    .entry__article {
+        padding-top: 30px;
+    }
+}
